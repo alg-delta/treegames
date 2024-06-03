@@ -1,0 +1,156 @@
+.menu {
+	list-style:none;
+
+}
+.menu a{
+	text-decoration:none;
+		border:6px double gray;
+	width:200px;
+	display:block;
+	font-size:30px;
+	text-align:center;
+	color:black;
+	font-family:Verdana;
+	margin:30px;
+}
+	.menu	a.active {
+			color:red;
+	}
+ul {
+	margin-top:200px;
+	margin-left:-60px;
+}
+.tree {
+	font-family:Impact;
+	font-size:60px;
+	text-align:right;
+	color:white;
+}
+.logo {
+	margin: 0 auto;
+	margin-top:70px;
+	margin-left:270px;
+	border:5px solid skyblue;
+}
+.wrapper2 {
+	display:flex;
+}
+.wrapper {
+	 background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(161,161,161,1) 35%, rgba(0,0,0,1) 100%); 
+background-size:cover;
+min-height:100vh;
+}
+.tovar1 {
+border:3px dashed black;
+margin-top:10px;
+	width:90px;
+	height:90px;
+	}
+	
+	.tovar2 {
+		border:3px dashed black;
+		margin-top:10px;
+	width:90px;
+	height:90px;
+	}
+	
+	
+	.tovar3 {
+border:3px dashed black;
+margin-top:10px;
+	width:90px;
+	height:90px;
+	}
+	
+	
+	.tovar4 {
+border:3px dashed black;
+margin-top:10px;
+	width:90px;
+	height:90px;
+	}
+body {
+	margin:0;
+}
+.tovarsbuttons {
+	margin-left:300px;
+	margin-top:50px;
+}
+.tovarsbuttons a {
+	text-decoration:none;
+	border:2px dotted black;
+	width:200px;
+	display:red;
+	font-size:15px;
+	color:red;
+	font-family:Verdana;
+	margin-left:10px;
+	margin-bottom:500px;
+}
+.scrin1 {
+	border:3px dashed black;
+	margin-top:10;
+	margin-left:50px;
+	width:400px;
+	height:200px;
+}
+.scrin2 {
+	border:3px dashed black;
+	margin-left:50px;
+	margin-top:10;
+	width:400px;
+	height:200px;
+}
+.scrin3 {
+	border:3px dashed black;
+	margin-top:10;
+	margin-left:50px;
+	width:400px;
+	height:200px;
+}
+.scrin4 {
+	border:3px dashed black;
+	margin-top:10;
+	margin-left:50px;
+	width:400px;
+	height:200px;
+}
+.position1 {
+	display:flex;
+	
+}
+.position2 {
+	display:flex;
+	
+}.position3 {
+	display:flex;
+	
+}
+.position4 {
+	display:flex;
+	
+}
+.text {
+		font-family:Verdana;
+			color:white;
+}
+.ch {
+		width:400px;
+	height:200px;
+		border:5px solid skyblue;
+}
+.hoverik:hover {
+	color:yellow;
+	transform: scale(1.1);
+}
+.hoverik {
+	transition: all  0.5s;
+}
+.active:hover {
+	color:yellow;
+	transform: scale(1.1);
+}
+.active {
+	transition: all  0.5s;
+}
